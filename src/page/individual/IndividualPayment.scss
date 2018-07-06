@@ -1,0 +1,67 @@
+.page_color{
+    background-color:#f9f9f9;
+    width:100vw;
+    height:100vh;
+    padding-top:2.5vh;
+}
+.item{
+    width:90%;
+    margin:auto;
+    padding:2vh;
+    border-radius:1.5vh;
+    margin-bottom:1vh;
+    background-color:#fff;
+    color:#666;
+    .order_title{
+        height:4vh;
+        line-height: 3.6vh;
+        font-size:2.2vh;
+        span{
+            margin-right:2vh;
+        }
+    }
+    .order_type{
+        height:6vh;
+        line-height: 3.6vh;
+        font-size:2.2vh;
+        color:#9ad7fd;
+    }
+    .order_price{
+        height:7.5vh;
+        line-height: 6vh;
+        font-size:4.6vh;
+        color:#9ad7fd;
+        text-align: center;
+
+    }
+    .order_payment{
+        height:9vh;
+        line-height: 9vh;
+        font-size:2.2vh;
+        .payment_img{
+            float:left;
+            height:5vh;
+            margin-top:2vh;
+            margin-right:2vh;
+            margin-left:1vh;
+        }
+        .select_img{
+            float:right;
+            height:3vh;
+            margin-top:3vh;
+            margin-right:1vh;
+        }
+    }
+}
+.button{
+    background-color: #9ad7fd;
+    color:#fff;
+    font-size:2.4vh;
+    border-radius:4vh;
+    height:7vh;
+    width:60vw;
+    text-align: center;
+    line-height: 7vh;
+    margin:auto;
+    margin-top:5vh;
+}

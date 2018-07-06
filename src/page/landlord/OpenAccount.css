@@ -1,0 +1,81 @@
+#openaccount .list{
+  width: 34.5rem;
+  height: 32.9rem;
+  margin: 1rem auto;
+  background: #fff;
+  font-size: 1.2rem;
+  padding-top: 1.3rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+#openaccount .list li{
+  height: 2.3rem;
+  line-height: 2.3rem;
+  padding-left: 3.2rem;
+  margin-bottom: 1.3rem;
+  position: relative;
+}
+#openaccount .list li:nth-child(1){
+  background: url('/static/union_store/guanliyuan.png') 0.7rem center no-repeat;
+  background-size: 1.5rem;
+}
+#openaccount .list li:nth-child(2){
+  background: url('/static/union_store/mima.png') 0.7rem center no-repeat;
+  background-size: 1.5rem;
+}
+#openaccount .list li:nth-child(3){
+  background: url('/static/union_store/suozaidiqu.png') 0.7rem center no-repeat;
+  background-size: 1.5rem;
+}
+#openaccount .list li:nth-child(4){
+  background: url('/static/union_store/mendian.png') 0.7rem center no-repeat;
+  background-size: 1.5rem;
+}
+#openaccount .list li:nth-child(5){
+  background: url('/static/agent/tianxiedizhi.png') 0.7rem center no-repeat;
+  background-size: 1.5rem;
+}
+#openaccount .list li:nth-child(6){
+  background: url('/static/union_store/mendianbiecheng.png') 0.7rem center no-repeat;
+  background-size: 1.5rem;
+}
+#openaccount .list li:nth-child(7){
+  background: url('/static/union_store/dianhua.png') 0.7rem center no-repeat;
+  background-size: 1.5rem;
+}
+#openaccount .list li input,#openaccount .list .dropdown{
+  width: 16rem;
+  height: 2.3rem;
+  border: 0.1rem solid #F4F4F4;
+  position: absolute;
+  left: 10.7rem;
+}
+#openaccount .list .dropdown{
+  padding-left: 0.6rem;
+  color: #CCC;
+}
+#openaccount .list .list_item{
+  color: #000;
+}
+
+#openaccount .reset,#openaccount .sub{
+  width: 7.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  position: absolute;
+  bottom: 2.3rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+}
+#openaccount .reset{
+  line-height: 2.3rem;
+  left: 8.6rem;
+  color: #87D9FF;
+  border: 0.1rem solid #00CCFF;
+}
+#openaccount .sub{
+  right: 8.5rem;
+  color: #fff;
+  background: #87D9FF;
+}

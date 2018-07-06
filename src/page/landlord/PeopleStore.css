@@ -1,0 +1,123 @@
+#peoplestore .menu{
+  height: 5rem;
+  margin-top: 0.2rem;
+  background: #fff;
+  position: relative;
+}
+#peoplestore .menu span{
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 4rem;
+  text-align: center;
+  border-radius: 50%;
+  background: #FFCC00;
+  position: absolute;
+  left:1.5rem;
+  top: 0.5rem;
+  z-index: 10;
+}
+#peoplestore .menu strong{
+  display: block;
+  width: 8rem;
+  height: 2.8rem;
+  line-height: 2.8rem;
+  background: #F3FBFF;
+  color: #666;
+  text-align: right;
+  font-size: 1.1rem;
+  font-weight: 100;
+  border-radius: 1.4rem;
+  padding-right: 0.7rem;
+  position: absolute;
+  left: 1.7rem;
+  top: 1.1rem;
+}
+#peoplestore .menu strong.str{
+  padding-right: 1.5rem;
+}
+#peoplestore .menu a{
+  display: block;
+  width: 9rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding-left: 1.9rem;
+  font-size: 1rem;
+  color: #D2D2D2;
+  position: absolute;
+  left: 11.3rem;
+  top: 1.9rem;
+  background: url("/static/union_store/kaitongjingjirenzhanghao.png") left center no-repeat;
+  background-size: 1.5rem;
+}
+#peoplestore .list{
+  width: 34.5rem;
+  height: 10rem;
+  background: #fff;
+  margin: 0.5rem auto;
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+#peoplestore .list li{
+  height: 2.6rem;
+  line-height: 2.6rem;
+  padding-left: 3.3rem;
+}
+#peoplestore .list .dian{
+  background: url('/static/union_store/mendian.png') 0.7rem center no-repeat;
+  background-size: 1.5rem;
+}
+#peoplestore .list .user{
+  background: url('/static/union_store/guanliyuan.png') 0.7rem center no-repeat;
+  background-size: 1.5rem;
+}
+#peoplestore .list span{
+  color: #FFA414;
+  position: absolute;
+  bottom: 1.6rem;
+}
+#peoplestore .list span:nth-child(1){
+  left: 4.7rem;
+}
+#peoplestore .list span:nth-child(2){
+  left: 15.3rem;
+}
+#peoplestore .list span:nth-child(3){
+  left: 22.5rem;
+}
+#peoplestore .list strong{
+  position: absolute;
+  font-size: 1.3rem;
+  color: #00CCFF;
+  right: 0.8rem;
+  top: 1.3rem;
+  font-weight: 100;
+}
+#peoplestore .sear{
+  height: 4.4rem;
+  margin-top: 0.5rem;
+  background: #fff;
+  position: relative;
+}
+#peoplestore .sear .store{
+  display: block;
+  font-size: 1.1rem;
+  color: #CCC;
+  width: 3.7rem;
+  height: 4.4rem;
+  line-height: 4.4rem;
+  margin-left: 1.6rem;
+  background: url('/static/union_store/caiwutype.png') right center no-repeat;
+  background-size: 1.1rem;
+}
+#peoplestore .sear .form{
+  width: 25rem;
+  height: 2.8rem;
+  position: absolute;
+  top: 0.8rem;
+  right: 1.5rem;
+}

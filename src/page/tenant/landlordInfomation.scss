@@ -1,0 +1,86 @@
+
+.landlord_info{
+    width:90vw;
+    height:16vh;
+    margin-left:5vw;
+    .user_head{
+        float:left;
+        width:60%;
+        margin-top:3vh;
+        line-height: 12vh;
+        img{
+            height:11vh;
+            float:left;
+            margin-right:3vw;
+        }
+        span{
+            font-size:2.5vh;
+        }
+    }
+    .message{
+        float:left;
+        padding-left:5%;
+        padding-top:8%;
+        width:20%;
+        img{
+            height:8vh;
+        }
+    }
+    .phone{
+        float:left;
+        padding-left:5%;
+        padding-top:8%;
+        width:20%;
+        img{
+            height:8vh;
+        }
+    }
+}
+
+.other_source{
+    background-color:#f6f6f6;
+    height:84vh;
+    .list_box{
+        background-color:#fff;
+        padding-left:4vw;
+    }
+}
+
+.line_division{
+    width:100vw;
+    height:6.5vh;
+    background-color:#fff;
+    .line_title{
+        height:3vh;
+        width:100%;
+        margin-bottom:2.5vh;
+        div{
+            float:left;
+        }
+        span{
+            font-size:3vw;
+            color:#bbb;
+        }
+        .short_line{
+            float:left;
+            height:1px;
+            width:30%;
+            margin-top:1.7vh;
+            margin-left:6.2%;
+            margin-right:6.2%;
+            background-color:#ddd;
+        }
+    }
+    .line{
+        height:0.5vw;
+        width:100%;
+        background-color:#eee;
+    }
+}
+
+.overflowScrolling {
+    color:#999;
+    text-align: center;
+    font-size:3vmin;
+    -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+    <title>住家</title>
+</head>
+<body style="margin:0px;background-color:#fff">
+<div id="app"></div>
+    <input type="hidden" id="timestamp" value="${timestamp}"/>
+    <input type="hidden" id="nonceStr" value="${nonceStr}"/>
+    <input type="hidden" id="signature" value="${signature}"/>
+    <div id="scan" style="width:100vw; height:70vh">
+        点击扫一扫
+    </div>
+<script>
+    var timestamp = $("#timestamp").val();
+    var nonceStr = $("#nonceStr").val();
+    var signature = $("#signature").val();
+    wx.config({
+        debug: false,
+        appId: '公众号ID', 
+        timestamp: timestamp, 
+        nonceStr: nonceStr,
+        signature: signature,
+        jsApiList : [ 'checkJsApi', 'startRecord', 'stopRecord','translateVoice','scanQRCode',
+ 'openCard' ]
+    });
+                
+    document.querySelector('#scan').onclick = function () {
+        wx.scanQRCode({
+            needResult: 1, 
+            scanType: ["qrCode","barCode"], 
+            success: function (res) {
+                console.log(res.resultStr); 
+            },
+            fail: function (res) {
+               console.log(JSON.stringify(res));
+            }
+        });
+    };
+</script>
+</body>
+</html>

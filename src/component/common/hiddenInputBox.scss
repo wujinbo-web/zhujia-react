@@ -1,0 +1,51 @@
+.hidden_box{
+    position:absolute;
+    height:20vh;
+    width:26vh;
+    margin-left:-13vh;
+    margin-top:-10vh;
+    left:50%;
+    top:50%;
+    background-color:#fff;
+    z-index: 2;
+    border-radius: 0.7vh;
+    line-height: 4vh;
+    color:#666;
+    .hidden_title{
+        text-align: center;
+        font-size:2vh;
+        height:33%;
+        padding-top:1.5vh;
+    }
+    .hidden_input{
+        font-size:2vh;
+        margin-left:2.5vh;
+        height:33%;
+        span{
+            margin-right:1.5vh;
+        }
+        input{
+            width:60%;
+            font-size:2vh;
+            border:1px;
+            border-color:#ddd;
+            border-style: solid;
+            height:50%;
+        }
+    }
+    .hidden_button{
+        display: flex;
+        justify-content:center;
+        height:33%;
+        text-align: center;
+        line-height: 3.5vh;
+        color:#fff;
+        & > div {
+            height:60%;
+            width:60%;
+            font-size:2vh;
+            background-color:#9ad7fd;
+            border-radius: 0.5vh;
+        }
+    }
+}

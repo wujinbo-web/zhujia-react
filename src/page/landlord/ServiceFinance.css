@@ -1,0 +1,140 @@
+
+#servicefinance .cash{
+  width: 100%;
+  font-size: 1.7rem;
+  padding: 0 1.5rem 0 1.65rem;
+  height: 6.5rem;
+  line-height: 6.5rem;
+  color: #00ccff;
+  position: relative;
+  background: #fff;
+  margin-bottom: 0.1rem;
+}
+#servicefinance .cash span{
+  font-weight: bold;
+}
+#servicefinance .cash a{
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 6rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  background: #89df6c;
+  color: #fff;
+  position: absolute;
+  right: 1.6rem;
+  top:2rem;
+  border-radius: 0.3rem;
+  box-shadow: 0.1rem 0.2rem 0.2rem #c8e1bf;
+}
+#servicefinance .finance_type{
+  height: 4.4rem;
+  padding: 0 1.4rem 1.5rem;
+  background: #fff;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+#servicefinance .finance_type .type{
+  display: block;
+  width: 5.8rem;
+  height: 4.4rem;
+  line-height: 4.4rem;
+  color: #999;
+  background: url("/static/union_store/caiwutype.png") right center no-repeat;
+  background-size: 1.1rem 1.1rem;
+}
+#servicefinance .finance_type .active{
+  display: block;
+  width: 5.8rem;
+  height: 4.4rem;
+  line-height: 4.4rem;
+  color: #87d9ff;
+  background: url("/static/union_store/caiwutype2.png") right center no-repeat;
+  background-size: 1.1rem 1.1rem;
+}
+#servicefinance .form{
+  position: absolute;
+  top: 0.8rem;
+  right:1.5rem;
+}
+#servicefinance .list{
+  width:34.5rem;
+  margin: 0 auto;
+}
+#servicefinance .list ul{
+  font-size: 1.2rem;
+  height: 8.5rem;
+  background: #fff;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.3rem;
+  position: relative;
+}
+#servicefinance .list li{
+  height: 2.6rem;
+  line-height: 2.6rem;
+  padding-left: 3.2rem;
+}
+#servicefinance .list li:nth-child(1){
+  background: url('/static/union_store/caiwuleixing.png') 0.6rem center no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+#servicefinance .list li:nth-child(2){
+  background: url('/static/union_store/zuqi.png') 0.6rem center no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+#servicefinance .list li:nth-child(3){
+  background: url('/static/union_store/guanliyuan.png') 0.6rem center no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+#servicefinance .list strong{
+  font-size: 1.3rem;
+  position: absolute;
+  color: #87d9ff;
+  font-weight: 100;
+  right: 0.5rem;
+  top: 0.8rem;
+}
+#servicefinance .list strong.active{
+  color: #00ccff;
+}
+#servicefinance .list span{
+  position: absolute;
+  right:1rem;
+  top:4.6rem;
+}
+#servicefinance .list span.active{
+  color: #ffa414;
+}
+#servicefinance .box{position: relative;}
+#servicefinance .wrap{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  position: fixed;
+  top: 8.7rem;
+}
+#servicefinance .wrap .content{
+  width: 100%;
+  padding-bottom: 2.75rem;
+  background: #fff;
+
+}
+#servicefinance .content a{
+  color: #666;
+}
+#servicefinance .content table{
+  width: 100%;
+  text-align: center;
+  font-size: 0.7rem;
+  border-collapse:collapse;
+}
+#servicefinance .content tr{
+  border: 1px solid #00ccff;
+}
+#servicefinance .content td{
+  border: 1px solid #00ccff;
+  height: 2.9rem;
+}

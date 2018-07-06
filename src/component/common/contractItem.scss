@@ -1,0 +1,59 @@
+.item{
+    width:100vw;
+    padding:2vh 2vw 2vh 3vw;
+    height:26vh;
+    background-color:#fff;
+    padding-bottom:4vh;
+    margin-top:2px;
+    .item_header{
+        width:100%;
+        
+        padding-bottom:1.5vh;
+        span{
+            font-size:2vh;
+            color:#999;
+        }
+    }
+    .item_info{
+        height:55%;
+        .item_img{
+            height:100%;
+            float:left;
+            margin-right:1.5vh;
+            img{
+                height:100%;
+            }
+        }
+        .item_right{
+            width:70%;
+            height:100%;
+            float:left;
+            line-height:4vh;
+            .title{
+                font-size:2.5vh;
+                height:35%;
+                color:#333;
+            }
+            .size{
+                font-size:2.1vh;
+                color:#999;
+                height:35%;
+            }
+            .price{
+                font-size:2.1vh;
+                color:#9ad7fd;
+                height:30%;
+            }
+        }
+    }
+    .item_bottom{
+        width:100%;
+        margin-top:2vh;
+        .func_box{
+            & > div{
+                float:right;
+                margin-left:1vw;
+            }
+        }
+    }
+}

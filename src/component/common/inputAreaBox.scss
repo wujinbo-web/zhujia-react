@@ -1,0 +1,49 @@
+.info_item{
+    margin:0.4vh;
+    margin-left:4vw;
+    height:10vh;
+    font-family:"微软雅黑";
+    line-height: 10vh;
+    
+    div{
+        height:100%;
+        float:left;
+    }
+    .in_title{
+        width:30%;
+    }
+    .in_body{
+        width:60%;
+    }
+    span{
+        font-size:2.04vh;
+        float:left;
+        font-weight: 500;
+        color:#333;
+        
+    }
+    textarea{
+        width:100%;
+        font-size:2vh;
+        color:#333;
+        background-color:rgba(0,0,0,0);
+        text-align: right;
+        height:100%;
+        border:none;
+        outline:none;
+        
+    }
+    textarea::-webkit-input-placeholder { /* WebKit browsers */  
+        color:    #999;  
+    }  
+    textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */  
+        color:    #999;  
+    }  
+    textarea::-moz-placeholder { /* Mozilla Firefox 19+ */  
+        color:    #999;  
+    }  
+    textarea:-ms-input-placeholder { /* Internet Explorer 10+ */  
+        color:    #999;   
+    }
+
+}

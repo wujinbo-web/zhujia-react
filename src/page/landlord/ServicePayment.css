@@ -1,0 +1,89 @@
+#servicepayment .paylist1,#servicepayment .paylist2,#servicepayment .paylist3{
+  width: 34.5rem;
+  background: #fff;
+  border-radius: 0.3rem;
+  margin: 0 auto 0.5rem;
+  font-size: 1.3rem;
+}
+#servicepayment .paylist1{
+  height: 11.5rem;
+  margin-top: 1rem;
+  position: relative;
+}
+#servicepayment .paylist2{
+  height: 9rem;
+}
+#servicepayment .paylist3{
+  height: 13.5rem;
+}
+#servicepayment .pay_btn{
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+  width: 25rem;
+  height: 4.3rem;
+  line-height: 4.3rem;
+  text-align: center;
+  border-radius: 1.8rem;
+  background: #87d9ff;
+  margin: 5rem auto 0;
+}
+#servicepayment h2{
+  font-size: 10px;
+  height: 3.85rem;
+  line-height: 3.85rem;
+  padding-left: 1.4rem;
+  font-size: 14px;
+  font-weight: normal;
+}
+#servicepayment hr{
+  width: 30.4rem;
+  margin: 0 auto;
+  border: none;
+  background: #eee;
+  height: 1px;
+}
+#servicepayment .text{
+  position: absolute;
+  font-size: 1.3rem;
+  color: #9adeff;
+  left:0.8rem;
+  bottom:2.5rem;
+
+}
+#servicepayment .price{
+  text-align: center;
+  font-size: 2.9rem;
+  color: #9adeff;
+}
+#servicepayment .paylist3 p{
+  font-size: 1.4rem;
+  height: 4.65rem;
+  line-height: 4.65rem;
+  padding-left: 4.9rem;
+  position: relative;
+}
+#servicepayment .pay1{
+  background: url('/static/tenant/weixinzhifu.png') 1.3rem center no-repeat;
+  background-size: 2.5rem 2.5rem;
+}
+#servicepayment .pay2{
+  background: url('/static/tenant/yuezhiifu.png') 1.3rem center no-repeat;
+  background-size: 2.5rem 2.5rem;
+}
+#servicepayment .paylist3 input[type="radio"]{
+  display: none;
+}
+#servicepayment label{
+  width: 1.6rem;
+  height: 1.6rem;
+  background: url('/static/tenant/weixuanzhifufangshi.png') no-repeat;
+  background-size: 1.6rem 1.6rem;
+  position: absolute;
+  right: 1.5rem;
+  top:1.5rem;
+}
+#servicepayment label.active{
+  background: url('/static/tenant/yixuanzhifufangshi.png') no-repeat;
+  background-size: 1.6rem 1.6rem;
+}

@@ -1,0 +1,88 @@
+.box{
+  height: 100%;
+  background: #F9F9F9;
+}
+#serviceList .menu{
+  width: 100%;
+  height: 4.4rem;
+  background:white;
+  margin-bottom: 0.5rem;
+}
+#serviceList .wrap{
+  position: relative;
+  width: 92%;
+  height: 4.4rem;
+  margin: 0 auto;
+}
+
+#serviceList .menu span{
+  position: absolute;
+  left:0;
+  top:50%;
+  margin-top: -1.05rem;
+  display: block;
+  width:2.1rem;
+  height: 2.1rem;
+  background: url('/static/union_store/rili.png') center center no-repeat;
+  background-size: cover;
+}
+#serviceList .menu .form{
+  position: absolute;
+  left: 3.9rem;
+  top:50%;
+  margin-top: -1.35rem;
+}
+
+#serviceList .menu .btn{
+  width: 3.45rem;
+  height: 3.45rem;
+  font-size: 1.1rem;
+  line-height: 3.45rem;
+  text-align: center;
+  background: #feb941;
+  color: #fff;
+  position: absolute;
+  right:0;
+  top:50%;
+  border-radius: 50%;
+  margin-top: -1.725rem;
+}
+
+#serviceList .box_list{
+  width: 34.5rem;
+  margin: 0 auto;
+}
+#serviceList .list_item{
+  position: relative;
+  padding-top: 0.6rem;
+  height: 8.4rem;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.3rem;
+  background-color: #fff;
+}
+#serviceList .list_item .left li{
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding-left: 3.2rem;
+  font-size: 1.2rem;
+}
+#serviceList .list_item .left .item1{
+  background: url(/static/union_store/wuyedizhi.png) 0.5rem center no-repeat;
+  background-size:1.5rem 1.5rem;
+}
+#serviceList .list_item .left .item2{
+  background: url(/static/union_store/baoxiuneirong.png) 0.5rem center no-repeat;
+  background-size:1.5rem 1.5rem;
+}
+#serviceList .list_item .left .item3{
+  background: url(/static/union_store/zuqi.png) 0.5rem center no-repeat;
+  background-size:1.5rem 1.5rem;
+}
+#serviceList .list_item .right{
+  position: absolute;
+  right: 1rem;
+  top:1.3rem;
+  color: #00ccff;
+  font-size: 1.3rem;
+}

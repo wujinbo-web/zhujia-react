@@ -1,0 +1,85 @@
+#sendkey ul{
+  width: 34.5rem;
+  height: 19rem;
+  background: #fff;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  padding-top: 1.2rem;
+  position: relative;
+}
+#sendkey li{
+  height: 2.3rem;
+  line-height: 2.3rem;
+  padding-left: 3.2rem;
+  font-size: 1.2rem;
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+#sendkey li p{
+  height: 2.3rem;
+  position: absolute;
+  top: 0;
+  left: 10.7rem;
+}
+#sendkey li input{
+  border: 0.1rem solid #F4F4F4;
+  height: 2.3rem;
+  line-height: 2.3rem;
+}
+#sendkey .type{
+  background: url('/static/union_store/yaoshileixing.png') 0.8rem center no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+#sendkey .type a{
+  display: inline-block;
+  width: 9.8rem;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  color: #666;
+  padding-left: 2.2rem;
+  background: url('/static/union_store/yaoshileixing weixuanzhong2.png') 0 center no-repeat;
+  background-size: 1.3rem 1.3rem;
+}
+#sendkey .type a.active{
+  color: #87D9FF;
+  background: url('/static/union_store/yaoshileixing xuanzhong.png') 0 center no-repeat;
+  background-size: 1.3rem 1.3rem;
+}
+#sendkey .time{
+  background: url('/static/union_store/zuqi.png') 0.8rem center no-repeat;
+  background-size: 1.5rem;
+}
+#sendkey .time input{
+  width: 8.5rem;
+  padding-left: 0.8rem;
+}
+#sendkey .time span{
+  display: inline-block;
+  width: 2rem;
+  height: 2.3rem;
+  background:url('/static/union_store/jianhao.png') center center no-repeat;
+  background-size: 1.2rem 1.2rem;
+  vertical-align: top;
+}
+#sendkey .user{
+  background: url('/static/union_store/yajin.png') 0.8rem center no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+#sendkey .user input{
+  width: 19rem;
+  padding-left: 0.8rem;
+}
+#sendkey .send{
+  display: block;
+  width: 7.5rem;
+  height: 2.5rem;
+  background: #87D9FF;
+  color: #fff;
+  position: absolute;
+  left: 13.5rem;
+  bottom: 2.1rem;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+}

@@ -1,0 +1,61 @@
+.content{
+    margin:2vh;
+    width:92vw;
+    background-color: #fff;
+    border-radius: 1vh;
+    .info{
+        width:100%;
+        padding:1vh;
+        color:#333;
+        font-size:2vh;
+        & > div{
+            margin-top:2vh;
+            margin-bottom:3.5vh;
+            img{
+                height:2.5vh;
+                margin-right:1vh;
+                float:left;
+            }
+            span{
+                margin-right:1vw;
+            }
+        }
+        
+    }
+    .buttons{
+        display: flex;
+        justify-content:center;
+        
+    }
+}
+.button_box{
+    height:12vh;
+    width:22vw;
+    float:left;
+    margin-left:1.5vh;
+    margin-right:1.5vh;
+    font-size:2vh;
+    text-align: center;
+    line-height: 3.8vh;
+    .text{
+        color: #7dbc68;
+    }
+    .button{
+        margin-top:0.8vh;
+        height:4.1vh;
+        width:22vw;
+        border-radius: 0.5vh;
+        background-color:#ffca58;
+        color:#fff;
+    }
+}
+
+.cover_box{
+    position: absolute;
+    height:100vh;
+    width:100vw;
+    background-color:rgba(0,0,0,0.4);
+    top:0;
+    left:0;
+    z-index: 1;
+}

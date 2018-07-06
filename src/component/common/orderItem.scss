@@ -1,0 +1,46 @@
+.item{
+    width:94vw;
+    height:18vh;
+    background-color:#a5c8fd;
+    border-radius: 1.8vh;
+    margin-top:2vh;
+    margin-left:3vw;
+    color:#fff;
+    .content{
+        float:left;
+        font-size:2vh;
+        height:100%;
+        padding-left:5vw;
+        padding-top:2vh;
+        padding-bottom:1.8vh;
+        width:70%;
+        & > div{
+            height:25%;
+        }
+    }
+    .body{
+        float:left;
+        font-size:2.1vh;
+        height:100%;
+        color:#a5c8fd;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        .button_box{
+            display:initial;
+            margin:auto;
+             
+        }
+    }
+}
+.button {
+    height:4vh;
+    width:20vw;
+    border-radius: 5vh;
+    background-color:#fff;
+    text-align: center;
+    line-height: 4vh;
+    margin-top:2.5vh;
+    margin-bottom:2.5vh;
+    margin-left:2vw;
+}

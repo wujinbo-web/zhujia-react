@@ -1,0 +1,16 @@
+.item_box{
+    height:100vh;
+    width:100vw;
+    background-color:#f9f9f9;
+    overflow:scroll;
+    OVERFLOW-Y:auto;
+    OVERFLOW-X:hidden;
+}
+
+.overflowScrolling {
+    color:#999;
+    text-align: center;
+    font-size:3vmin;
+    height: 100vh;
+    -webkit-overflow-scrolling: touch;
+}

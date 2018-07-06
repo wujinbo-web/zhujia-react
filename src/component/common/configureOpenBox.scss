@@ -1,0 +1,23 @@
+.con{
+    width:80vw;
+    margin-top:6%;
+    margin-bottom:3%;
+    .tag_v{
+        float:left;
+        height:100%;
+        margin-bottom:4%;
+        width: 20%;
+        margin-left:3.8%;
+        text-align: center;
+        img{
+            width:80%;
+            margin-left:10%;
+            margin-bottom:10%;
+            height:auto;
+        }
+        span{
+            font-size:2vh;
+            color:#9ad7fd;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+.crude_line{
+    width:100%;
+    height:2vh;
+    background-color: #eee;
+}
+.line{
+    width:100%;
+    height:1px;
+    background-color: #eee;
+}
+.content{
+    margin-top:2vh;
+    width:100vw;
+    height:88vh;
+}
+.item{
+    height:3.6vh;
+    margin:2vh;
+    font-size:2.4vh;
+    img{
+        height:5vh;
+        margin-top:1px;
+        float:left;
+    }
+    
+}
+.item_img_text{
+    height:7vh;
+    margin-left:2vh;
+    margin-right:2vh;
+    margin-top:1vh;
+    line-height: 6.5vh;
+    font-size:2.4vh;
+    img{
+        height:4vh;
+        float:left;
+        margin:1vh;
+        margin-top:1.2vh;
+    }
+    span{
+        height:100%;
+    }
+}
+.item_title{
+    height:3.6vh;
+    margin:2vh;
+    font-size:2.5vh;
+    line-height: 3.8vh;
+    img{
+        height:3vh;
+        float:left;
+        margin-top:0.4vh;
+        margin-right:1vh;
+    }
+    
+}
+.right{
+    float:right;
+    font-size:2.4vh;
+}
+.bottom{
+    position: absolute;
+    bottom:0;
+    width:100vw;
+    height:9vh;
+    line-height: 8vh;
+    text-align: center;
+    background-color: #99e07a;
+    color:#fff;
+}

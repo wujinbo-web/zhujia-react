@@ -1,0 +1,71 @@
+#intelligentlock .menu{
+  width: 100%;
+  height: 4.4rem;
+  margin-top: 0.2rem;
+  background: #fff;
+  font-size: 1.1rem;
+  position: relative;
+}
+#intelligentlock .menu input{
+  width: 25rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 4.2rem;
+  top: 0.8rem;
+  border: 0.1rem solid #87D9FF;
+  border-radius: 0.4rem;
+  padding-left: 2.6rem;
+  background: url('/static/union_store/fangyuansousuo2.png') 0.6rem center no-repeat;
+  background-size: 1.2rem 1.2rem;
+}
+
+#intelligentlock .menu a{
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: #FEB941;
+  font-size: 1.1rem;
+  line-height: 3.5rem;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0.4rem;
+  right:2.8rem;
+}
+
+#intelligentlock .list{
+  width: 34.5rem;
+  margin: 0 auto;
+}
+#intelligentlock .list ul{
+  position: relative;
+  height: 9rem;
+  background: #fff;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  padding-top: 1.3rem;
+}
+#intelligentlock .list li{
+  font-size: 1.2rem;
+  height: 2.6rem;
+  padding-left: 3.2rem;
+}
+#intelligentlock .list li:nth-child(1){
+  background: url('/static/union_store/id.png') 0.8rem 0 no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+#intelligentlock .list li:nth-child(2){
+  background: url('/static/union_store/zhanghao.png') 0.8rem 0 no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+#intelligentlock .list li:nth-child(3){
+  background: url('/static/union_store/guanliyuan.png') 0.8rem 0 no-repeat;
+  background-size: 1.5rem 1.5rem;
+}
+
+
+input::-webkit-input-placeholder{color: #ccc; font-size:1rem; }
+input::-moz-input-placeholder{color: #ccc; font-size:1rem;}
+input::-ms-input-placeholder{color: #ccc; font-size:1rem;}

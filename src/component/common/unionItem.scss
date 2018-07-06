@@ -1,0 +1,41 @@
+.item{
+    background: url("/static/union_store/beijingditu.png") no-repeat center top;
+    float:left;
+    height:17vh;
+    width:17vh;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    border-radius:1vh;
+    margin-left:0.5vh;
+    margin-right:0.5vh;
+    margin-top:1vh;
+    font-size:2vh;
+    .corner{
+        background: url("/static/union_store/qianfei.png") no-repeat center top;
+        position:absolute;
+        overflow: hidden;
+        background-size: cover;
+        height:2.5vh;
+        color:red;
+        width:7vh;
+        right:0;
+        font-size:1.8vh;
+        text-align: right;
+    }
+    .house_name{
+        width:100%;
+        height:22%;
+        color:#fff;
+        margin-left:1vh;
+    }
+    .house_info{
+        width:100%;
+        height:77%;
+        margin-left:1vh;
+        color:#666;
+        div{
+           padding-top:0.5vh;
+        }
+    }
+}

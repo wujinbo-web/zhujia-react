@@ -1,0 +1,30 @@
+.item{
+    width:100%;
+    height:15vh;
+    margin-top:2vh;
+    line-height: 4vh;
+    img{
+        margin-top:0.6vh;
+        height:2.7vh;
+        float:left;
+        margin-right:2vh;
+    }
+    span{
+        font-size:2vh;
+    }
+    .img_box{
+        margin-left:4vh;
+        width:90vw;
+        height:11vh;
+        .image_div{
+            margin:1vh;
+            width:8vh;
+            height:8vh;
+            float:left;
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+}

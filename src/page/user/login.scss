@@ -1,0 +1,63 @@
+.logo_box{
+    height:45vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    img{
+        height:40%;
+    }
+}
+.content{
+    height:55vh;
+    width:100vw;
+    & > div{
+        margin:auto;
+    }
+    .input_box{
+        width:70%;
+        height:6vh;
+        border-bottom: 1px;
+        border-color: #eee;
+        border-bottom-style: solid;
+        margin-bottom:2vh;
+        img{
+            margin-top:1vh;
+            height:3.5vh;
+            float:left;
+        }
+        .sign{
+            float:left;
+            margin-right:1.5vh;
+        }
+        input{
+            margin-top:1vh;
+            width:70%;
+            font-size:2.2vh;
+            height:4vh;
+            line-height: 4vh;
+        }
+        .password_sign{
+            float:right;
+        }
+    }
+    .button{
+        height:6vh;
+        width:70%;
+        background-color:#2199ef;
+        color:#fff;
+        border-radius: 5vh;
+        text-align: center;
+        line-height: 6vh;
+        font-size:2.2vh;
+        margin:auto;
+        margin-top:6vh;
+    }
+    .regist_box{
+        width:100vw;
+        text-align: center;
+        font-size:2.2vh;
+        color:#999;
+        margin-top:3vh;
+    }
+}

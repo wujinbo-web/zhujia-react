@@ -1,0 +1,17 @@
+#electric{
+  display: block;
+  width: 4.2rem;
+  height: 4.2rem;
+  background: url('/static/union_store/dianliang0.png') no-repeat;
+  background-size: 4.2rem 4.2rem;
+  text-align: center;
+  padding-top: 0.9rem;
+  font-size: 1.2rem;
+  color: ##87D9FF;
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+}
+#electric.active{
+  color: #FE7786;
+}

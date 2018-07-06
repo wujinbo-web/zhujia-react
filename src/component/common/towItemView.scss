@@ -1,0 +1,22 @@
+.item_box{
+    width:100vw;
+    color:#333;
+    .key_box{
+        background-color:#eee;
+        float:left;
+        width:50%;
+        overflow:scroll;
+        height:40vh;
+        OVERFLOW-Y:auto;
+        OVERFLOW-X:hidden;
+    }
+    .value_box{
+        background-color:#fff;
+        width:50%;
+        overflow:scroll;
+        height:40vh;
+        OVERFLOW-Y:auto;
+        OVERFLOW-X:hidden;
+        
+    }
+}

@@ -1,0 +1,34 @@
+
+
+.background{
+    background: url("/static/customer/poster.png") no-repeat center top;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+} 
+
+.button{
+    background: url("/static/customer/button.png") no-repeat center top;
+    height: 6vh;
+    width: 24vh;   
+    overflow: hidden;
+    position:absolute; 
+    background-size: 100% 100%;
+    right: 0;
+    left:0;
+    top:0; 
+    bottom:0; 
+    margin:auto;
+    margin-top: 48vh; 
+    text-align: center;
+    line-height: 5.5vh;
+    
+    span {
+        color: #FFF;
+        font-size:2.7vh;
+        letter-spacing:2px;
+       
+    }
+}   

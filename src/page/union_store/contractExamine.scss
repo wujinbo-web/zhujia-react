@@ -1,0 +1,64 @@
+.item_box{
+    height:100vh;
+    width:100vw;
+    padding-top:0.5vh;
+    display: flex;
+    justify-content:center;
+    padding-left:1vh;
+    padding-right:1vh;
+    background-color:#f9f9f9;
+    overflow:scroll;
+    OVERFLOW-Y:auto;
+    OVERFLOW-X:hidden;
+}
+
+.items{
+    display: inline;
+}
+
+.item{
+    border-radius: 1vh;
+    padding-left:1vh;
+    padding-top:0.2vh;
+    background-color:#fff;
+    height:14.8vh;
+    width:92vw;
+    margin-top:0.5vh;
+    margin-bottom:1vh;
+    position: relative;
+    .sign_box{
+        position: absolute;
+        background: url("/static/union_store/sign.png") no-repeat center top;
+        overflow: hidden;
+        background-size: cover;
+        height:5.1vh;
+        width:8.4vh;
+        right:3vw;
+        color:#fff;
+        font-size:2vh;
+        display: flex;
+        padding-left:2vh;
+        padding-right:2vh;
+        justify-content:center;
+        align-items:center;
+        text-align: center;
+        line-height: 2.2vh;
+    }
+    .item_info{
+        margin-top:0.5vh;
+        margin-bottom:1vh;
+        height:25%;
+        color:#333;
+        line-height: 3.3vh;
+        img{
+            margin-top:0.4vh;
+            height:2.7vh;
+            float:left;
+            margin-right:1.5vh;
+        }
+        span{
+            font-size:1.8vh;
+            margin-right:1vh;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.item{
+    width:94vw;
+    margin-top:3vw;
+    margin-left:3vw;
+    text-align: left;
+    img{
+        width:100%;
+        height:auto;
+    }
+    .item_contant{
+        background-color:#fff;
+        padding-left:2vw;
+        padding-top:1vw;
+        padding-right:2vw;
+    }
+    .item_title{
+        font-size:2.5vh;
+        height:4.5vh;
+        line-height:4.5vh;
+        .title{
+            float:left;
+            font-weight: 800;
+        }
+        .price{
+            float:right;
+            font-weight: 800;
+            color:#9ad7fd;
+        }
+    }
+    .item_size{
+        font-size:2.1vh;
+        height:4vh;
+        line-height:4vh;
+        color:#aaa;
+    }
+    .item_tenant{
+        font-size:2.3vh;
+        height:5vh;
+        line-height:5vh;
+        font-weight: 800;
+        color:#9ad7fd;
+    }
+    .item_bottom{
+        margin-top:0.3vh;
+        background-color:#fff;
+        height:7vh;
+        div{
+            float:left;
+            margin-top:1.3vh;
+            height:60%;
+            
+            border-color:#e7aec5;
+            text-align: center;
+            line-height: 3.7vh;
+            color:#e7aec5;
+        }
+        .delete{
+            margin-left:40%;
+            width:20%;
+            border:1px;
+            font-size:2.4vh;
+            border-style: solid;
+        }
+        .check{
+            margin-left:5%;
+            width:34%;
+            border:2px;
+            font-size:2.2vh;
+            border-style: solid;
+        }
+    }
+}
