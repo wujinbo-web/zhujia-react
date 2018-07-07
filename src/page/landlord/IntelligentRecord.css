@@ -1,23 +1,23 @@
 #intelligentrerecord .item{
-  padding-left: 7.5rem;
-  padding-right: 1.5rem;
-  background: #fff url("/static/union_store/touxiang.png") 2rem center no-repeat;
-  background-size: 3.5rem;
-  height: 8rem;
-  border-bottom: 0.2rem solid #EBEBEB;
+  padding-left: 3.75rem;
+  padding-right: 0.75rem;
+  background: #fff url("/static/union_store/touxiang.png") 1rem center no-repeat;
+  background-size: 1.75rem;
+  height: 5rem;
+  border-bottom: 0.1rem solid #EBEBEB;
 }
 #intelligentrerecord .text1{
   color: #000;
-  font-size: 1.4rem;
-  padding-top: 2rem;
+  font-size: 0.7rem;
+  padding-top: 1rem;
 }
 #intelligentrerecord .text1 span{
   float: right;
 }
 #intelligentrerecord .text2{
   color: #979797;
-  font-size: 1.2rem;
-  padding-top: 1rem;
+  font-size: 0.6rem;
+  padding-top: 0.5rem;
 }
 #intelligentrerecord .text2 span{
   float: right;

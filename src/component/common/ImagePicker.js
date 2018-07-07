@@ -26,7 +26,7 @@ class ImagePickerExample extends React.Component {
       return (
           <div>
               <ImagePicker
-                  style={{ 'width': '20rem' }}
+                  style={{ 'width': '10rem' }}
                   files={files}
                   onChange={this.onChange}
                   onImageClick={(index, fs) => console.log(index, fs)}

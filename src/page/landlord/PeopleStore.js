@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
 import Header from './component/Header';
 import pageStyle from '../page2.scss';
+import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import './PeopleStore.css';
 class PeopleStore extends Component {
     constructor (...args) {
         super (...args);
     }
+    static propTypes={
+        history: PropTypes.object
+    }
     componentDidMount() {
         document.title = window.SITE_NAME + ' - ' + '人员';
+    }
+    fnHref = () => {
+        this.props.history.push('/peoplebroker');
     }
     render() {
         const aText = [
@@ -35,11 +43,10 @@ class PeopleStore extends Component {
             <div className={pageStyle['page']}>
                 <React.Fragment>
                     <div className={"box"} id="peoplestore">
-                        <Header title="人员" />
                         <div className="menu">
                             <span>门店</span>
-                            <strong>经济人</strong>
-                            <a href="javascript:;">开通门店账号</a>
+                            <strong  onClick={this.fnHref} >经济人</strong>
+                            <a href="#/openaccount">开通门店账号</a>
                         </div>
                         {listComp}
                     </div>

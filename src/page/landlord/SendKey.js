@@ -39,7 +39,6 @@ class SendKey extends Component {
             <div className={pageStyle['page']}>
                 <React.Fragment>
                     <div className={"box"} id="sendkey">
-                        <Header title="发送钥匙" />
                         <ul>
                             <li className="type">
                                 钥匙类型：

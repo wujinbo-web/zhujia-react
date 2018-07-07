@@ -100,12 +100,14 @@ class ServiceFinance extends Component {
                 <React.Fragment>
                     <div className={"box"}>
                         <WithDraw type={this.state.withdraw} aaa={this.fnReset} />
-                        <Header title="财务" />
-                        <div className={"cash"} style={{ display: this.state.cash }}>
-                            可用余额：<span>5897645.25元</span>
-                            <a href="javascript:;" onClick={ this.fnWithCash }>提现</a>
+                        <div style={{ display: this.state.cash }}>
+                            <div className={"cash"} >
+                                可用余额：<span>5897645.25元</span>
+                                <a href="javascript:;" onClick={ this.fnWithCash }>提现</a>
+                            </div>
+                            <div className="blank"></div>
                         </div>
-                        <div className={"finance_type"}>
+                        <div className="finance_type">
                             <a
                                 href="javascript:;"
                                 className={this.state.finance_type}

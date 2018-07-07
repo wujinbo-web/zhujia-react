@@ -12,14 +12,15 @@ class DropList extends Component {
     }
     static propTypes={
         data: PropTypes.object,
-        handleStore: PropTypes.func
+        handleStore: PropTypes.func,
+        name: PropTypes.string
     }
     fnClick = () => {
         this.setState( { dropList: !this.state.dropList } );
     }
     fnSetValue = (str) => {
         this.setState( { value: str } );
-        this.props.handleStore(str);
+        this.props.handleStore(str, this.props.name);
     }
     render() {
         let listCom = (

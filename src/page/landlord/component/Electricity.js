@@ -13,7 +13,7 @@ class Electricity extends Component {
             <span
                 id="electric"
                 className={ this.props.num < 50 ? "active" : "" }
-                style={{ "background": `url('/static/union_store/dianliang${this.props.num}.png')`, backgroundSize: "4.2rem 4.2rem" }}>
+                style={{ "background": `url('/static/union_store/dianliang${this.props.num}.png')`, backgroundSize: "2.1rem 2.1rem" }}>
                 电量<br/>{this.props.num}%
             </span>
         )

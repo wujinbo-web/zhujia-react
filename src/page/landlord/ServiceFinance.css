@@ -1,109 +1,114 @@
-
 #servicefinance .cash{
   width: 100%;
-  font-size: 1.7rem;
-  padding: 0 1.5rem 0 1.65rem;
-  height: 6.5rem;
-  line-height: 6.5rem;
+  font-size: 0.85rem;
+  padding: 0 0.75rem 0 0.825rem;
+  height: 3.25rem;
+  line-height: 3.25rem;
   color: #00ccff;
-  position: relative;
+  position: fixed;
   background: #fff;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.05rem;
+  z-index: 999;
 }
+#servicefinance .blank{
+  height: 3.3rem;
+}
+
 #servicefinance .cash span{
   font-weight: bold;
 }
 #servicefinance .cash a{
-  font-size: 1.2rem;
+  font-size: 0.6rem;
   display: inline-block;
-  width: 6rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  width: 2rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
   text-align: center;
   background: #89df6c;
   color: #fff;
   position: absolute;
-  right: 1.6rem;
-  top:2rem;
-  border-radius: 0.3rem;
-  box-shadow: 0.1rem 0.2rem 0.2rem #c8e1bf;
+  right: 0.8rem;
+  top:1rem;
+  border-radius: 0.15rem;
+  box-shadow: 0.05rem 0.1rem 0.1rem #c8e1bf;
 }
 #servicefinance .finance_type{
-  height: 4.4rem;
-  padding: 0 1.4rem 1.5rem;
+  width: 100%;
+  height: 2.2rem;
+  padding: 0 0.7rem 0.75rem;
   background: #fff;
+  font-size: 0.55rem;
   position: relative;
-  font-size: 1.1rem;
 }
 
 #servicefinance .finance_type .type{
   display: block;
-  width: 5.8rem;
-  height: 4.4rem;
-  line-height: 4.4rem;
+  width: 2.9rem;
+  height: 2.2rem;
+  line-height: 2.2rem;
   color: #999;
   background: url("/static/union_store/caiwutype.png") right center no-repeat;
-  background-size: 1.1rem 1.1rem;
+  background-size: 0.55rem 0.55rem;
 }
 #servicefinance .finance_type .active{
   display: block;
-  width: 5.8rem;
-  height: 4.4rem;
-  line-height: 4.4rem;
+  width: 2.9rem;
+  height: 2.2rem;
+  line-height: 2.2rem;
   color: #87d9ff;
   background: url("/static/union_store/caiwutype2.png") right center no-repeat;
-  background-size: 1.1rem 1.1rem;
+  background-size: 0.55rem 0.55rem;
 }
 #servicefinance .form{
   position: absolute;
-  top: 0.8rem;
-  right:1.5rem;
+  top: 0.4rem;
+  right:0.75rem;
 }
 #servicefinance .list{
-  width:34.5rem;
+  width:17.25rem;
   margin: 0 auto;
 }
 #servicefinance .list ul{
-  font-size: 1.2rem;
-  height: 8.5rem;
+  font-size: 0.6rem;
+  height: 4.25rem;
   background: #fff;
-  padding-top: 0.5rem;
-  margin-top: 0.5rem;
-  border-radius: 0.3rem;
+  padding-top: 0.25rem;
+  margin-top: 0.25rem;
+  border-radius: 0.15rem;
   position: relative;
 }
 #servicefinance .list li{
-  height: 2.6rem;
-  line-height: 2.6rem;
-  padding-left: 3.2rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  padding-left: 1.6rem;
 }
 #servicefinance .list li:nth-child(1){
-  background: url('/static/union_store/caiwuleixing.png') 0.6rem center no-repeat;
-  background-size: 1.5rem 1.5rem;
+  background: url('/static/union_store/caiwuleixing.png') 0.3rem center no-repeat;
+  background-size: 0.75rem 0.75rem;
 }
 #servicefinance .list li:nth-child(2){
-  background: url('/static/union_store/zuqi.png') 0.6rem center no-repeat;
-  background-size: 1.5rem 1.5rem;
+  background: url('/static/union_store/zuqi.png') 0.3rem center no-repeat;
+  background-size: 0.75rem 0.75rem;
 }
 #servicefinance .list li:nth-child(3){
-  background: url('/static/union_store/guanliyuan.png') 0.6rem center no-repeat;
-  background-size: 1.5rem 1.5rem;
+  background: url('/static/union_store/guanliyuan.png') 0.3rem center no-repeat;
+  background-size: 0.75rem 0.75rem;
 }
 #servicefinance .list strong{
-  font-size: 1.3rem;
+  font-size: 0.65rem;
   position: absolute;
   color: #87d9ff;
   font-weight: 100;
-  right: 0.5rem;
-  top: 0.8rem;
+  right: 0.25rem;
+  top: 0.4rem;
 }
 #servicefinance .list strong.active{
   color: #00ccff;
 }
 #servicefinance .list span{
   position: absolute;
-  right:1rem;
-  top:4.6rem;
+  right:0.5rem;
+  top:2.3rem;
 }
 #servicefinance .list span.active{
   color: #ffa414;
@@ -114,11 +119,11 @@
   height: 100%;
   background: rgba(0,0,0,0.3);
   position: fixed;
-  top: 8.7rem;
+  top: 2.2rem;
 }
 #servicefinance .wrap .content{
   width: 100%;
-  padding-bottom: 2.75rem;
+  padding-bottom: 1.375rem;
   background: #fff;
 
 }
@@ -128,13 +133,13 @@
 #servicefinance .content table{
   width: 100%;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.35rem;
   border-collapse:collapse;
 }
 #servicefinance .content tr{
-  border: 1px solid #00ccff;
+  border: 0.5px solid #00ccff;
 }
 #servicefinance .content td{
-  border: 1px solid #00ccff;
-  height: 2.9rem;
+  border: 0.5px solid #00ccff;
+  height: 1.45rem;
 }

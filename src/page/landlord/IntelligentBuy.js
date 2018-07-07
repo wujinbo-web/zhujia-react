@@ -43,7 +43,6 @@ class IntelligentBuy extends Component {
             <div className={pageStyle['page']}>
                 <React.Fragment>
                     <div className={"box"} id="intelligentbuy">
-                        <Header title="购买智能锁" />
                         <ul>
                             <li>地址:
                                 <input type="text" onChange= { this.fnAdress }  />

@@ -22,13 +22,13 @@ class ServiceList extends Component {
         let aText = [
             { "address": "杭州万新大厦的", "content": "[热水器维修]哦哦哦", "date": "2018-5-24", "price": "230" },
             { "address": "杭州万新大厦的2", "content": "[热水器维修]哦哦哦2", "date": "2018-5-25", "price": "250" },
+            { "address": "杭州万新大厦的3", "content": "[热水器维修]哦哦哦3", "date": "2018-5-26", "price": "280" },
             { "address": "杭州万新大厦的3", "content": "[热水器维修]哦哦哦3", "date": "2018-5-26", "price": "280" }
         ];
         return (
             <div className={pageStyle['page']} id="serviceList">
                 <React.Fragment>
                     <div className={'box'}>
-                        <Header title="维修"/>
                         <div className={'menu'}>
                             <div className={'wrap'}>
                                 <span></span>
@@ -53,7 +53,6 @@ class ServiceList extends Component {
                                     )
                                 })
                             }
-
                         </div>
                     </div>
                 </React.Fragment>

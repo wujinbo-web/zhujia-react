@@ -16,7 +16,8 @@ class IntelligentLock extends Component {
             { id: "M456790", account: "NBG789", user: "王晓晓2", electricity: 20 },
             { id: "M456710", account: "NBG789", user: "王晓晓3", electricity: 40 },
             { id: "M456722", account: "NBG789", user: "王晓晓4", electricity: 60 },
-            { id: "M456733", account: "NBG789", user: "王晓晓5", electricity: 100 }
+            { id: "M456733", account: "NBG789", user: "王晓晓5", electricity: 100 },
+            { id: "M456734", account: "NBG789", user: "王晓晓5", electricity: 100 }
         ];
         let ulComp = (
             listData.map( item => {
@@ -34,10 +35,9 @@ class IntelligentLock extends Component {
             <div className={pageStyle['page']} id="intelligentlock">
                 <React.Fragment>
                     <div className={"box"} id="intelligentlock">
-                        <Header title="智能锁" />
                         <div className="menu">
                             <input type="text" placeholder="请输入要搜素的小区/房源" />
-                            <a href="#">购买</a>
+                            <a href="#/intelligentbuy">购买</a>
                         </div>
                         <div className="list">
                             { ulComp }

@@ -37,7 +37,6 @@ class ServiceInfo extends Component {
             <div className={pageStyle['page']} id="serviceinfo">
                 <React.Fragment>
                     <div className={'box'}>
-                        <Header title="合同信息" />
                         <div className={'list'}>
                             <ul>
                                 <li className={'item1'}>报修地址：{aText.address}</li>

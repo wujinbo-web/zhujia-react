@@ -2,13 +2,21 @@ import React, { Component } from 'react';
 import Header from './component/Header';
 import pageStyle from '../page2.scss';
 import Search from '../../component/common/Search';
+import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import './PeopleStore.css';
 class PeopleBroker extends Component {
     constructor (...args) {
         super (...args);
     }
+    static propTypes={
+        history: PropTypes.object
+    }
     componentDidMount() {
         document.title = window.SITE_NAME + ' - ' + '人员';
+    }
+    fnHref = () => {
+        this.props.history.push('/peoplestore');
     }
     render() {
         const aText = [
@@ -36,11 +44,10 @@ class PeopleBroker extends Component {
             <div className={pageStyle['page']}>
                 <React.Fragment>
                     <div className={"box"} id="peoplestore">
-                        <Header title="人员" />
                         <div className="menu">
                             <span>经济人</span>
-                            <strong className="str">门店</strong>
-                            <a href="javascript:;">开通经纪人账号</a>
+                            <strong className="str" onClick={this.fnHref}>门店</strong>
+                            <a href="#/openbroker">开通经纪人账号</a>
                         </div>
                         <div className="sear">
                             <a href="javascript:;" className="store">门店</a>

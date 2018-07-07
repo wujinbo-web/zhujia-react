@@ -44,7 +44,6 @@ class IntelligentRecord extends Component {
             <div className={pageStyle['page']}>
                 <React.Fragment>
                     <div className={"box"} id="intelligentrerecord">
-                        <Header title="开锁记录" />
                         {listCom}
                     </div>
                 </React.Fragment>

@@ -32,7 +32,6 @@ class ServicePayment extends Component {
             <div className={pageStyle['page']} id="servicepayment">
                 <React.Fragment>
                     <div className={'box'}>
-                        <Header title="在线支付"/>
                         <div className={'paylist1'}>
                             <h2>订单编号：{text.orderNumber}</h2>
                             <hr/>

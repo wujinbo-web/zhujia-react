@@ -7,7 +7,6 @@ import LntelligentLock from "../page/customer/LntelligentLock";
 import DeclarationForm from "../page/customer/DeclarationForm";
 import HouseList from "../page/tenant/HouseList";
 import HouseInfomation from "../page/tenant/HouseInfomation";
-import UnionStore from "../page/landlord/UnionStore";
 import ServiceList from "../page/landlord/ServiceList";
 import ServiceInfo from "../page/landlord/ServiceInfo";
 import ServiceWrite from "../page/landlord/ServiceWrite"
@@ -61,7 +60,7 @@ export default hot(module)(
                     <Route exact path="/declarationForm" component={DeclarationForm} />
                     <Route exact path="/houseList" component={HouseList} />
                     <Route exact path="/houseInfomation" component={HouseInfomation} />
-                    <Route exact path="/unionStore" component={UnionStore} />
+
                     <Route exact path="/servicelist" component={ServiceList} />
                     <Route exact path="/serviceinfo" component={ServiceInfo} />
                     <Route exact path="/servicewrite" component={ServiceWrite} />
@@ -77,6 +76,7 @@ export default hot(module)(
                     <Route exact path="/peoplebroker" component={PeopleBroker} />
                     <Route exact path="/openaccount" component={OpenAccount} />
                     <Route exact path="/openbroker" component={OpenBroker} />
+
                     <Route exact path="/landlordInfomation" component={LandlordInfomation} />
                     <Route exact path="/individualHome" component={IndividualHome} />
                     <Route exact path="/individualRelease" component={IndividualRelease} />

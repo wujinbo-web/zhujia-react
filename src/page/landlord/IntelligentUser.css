@@ -1,54 +1,54 @@
 #intelligentuser ul{
-  width: 34.5rem;
-  height: 22.5rem;
-  margin: 1rem auto;
+  width: 17.25rem;
+  height: 11.25rem;
+  margin: 0.5rem auto;
   background: #fff;
-  border-radius: 0.5rem;
-  font-size: 1.2rem;
-  padding-top: 0.6rem;
+  border-radius: 0.25rem;
+  font-size: 0.6rem;
+  padding-top: 0.3rem;
   color: #333;
   position: relative;
 }
 #intelligentuser li{
-  height: 3.6rem;
-  line-height: 3.6rem;
-  padding-left: 3.2rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  padding-left: 1.6rem;
 
 }
 #intelligentuser li:nth-child(1){
-  background: url("/static/union_store/guanliyuan.png") 0.8rem center no-repeat;
-  background-size: 1.5rem;
+  background: url("/static/union_store/guanliyuan.png") 0.4rem center no-repeat;
+  background-size: 0.75rem;
 }
 #intelligentuser li:nth-child(2){
-  background: url("/static/union_store/yonghuguanlileixing.png") 0.8rem center no-repeat;
-  background-size: 1.5rem;
+  background: url("/static/union_store/yonghuguanlileixing.png") 0.4rem center no-repeat;
+  background-size: 0.75rem;
 }
 #intelligentuser li:nth-child(3){
-  background: url("/static/union_store/yonghuzhuangtai.png") 0.8rem center no-repeat;
-  background-size: 1.5rem;
+  background: url("/static/union_store/yonghuzhuangtai.png") 0.4rem center no-repeat;
+  background-size: 0.75rem;
 }
 #intelligentuser li:nth-child(4){
-  background: url("/static/union_store/zuqi.png") 0.8rem center no-repeat;
-  background-size: 1.5rem;
+  background: url("/static/union_store/zuqi.png") 0.4rem center no-repeat;
+  background-size: 0.75rem;
 }
 #intelligentuser a{
-  width: 5rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  width: 2.5rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
   text-align: center;
-  border-radius: 0.3rem;
+  border-radius: 0.15rem;
   color: #fff;
   background: #FEC11B;
   position: absolute;
 }
 #intelligentuser .freeze{
-  bottom: 2.4rem;
-  left: 11.1rem;
+  bottom: 1.2rem;
+  left: 5.55rem;
 }
 #intelligentuser .del{
   background: #F85959;
-  bottom: 2.4rem;
-  right: 11.1rem;
+  bottom: 1.2rem;
+  right: 5.55rem;
 }
 #intelligentuser .wrap{
   width: 100%;
@@ -60,29 +60,29 @@
   z-index: 999;
 }
 #intelligentuser .content{
-  width: 18rem;
-  height: 10rem;
-  margin: 23rem auto;
+  width: 9rem;
+  height: 5rem;
+  margin: 11.5rem auto;
   background: #fff;
-  border-radius: 0.5rem;
-  padding-top: 2.5rem;
+  border-radius: 0.25rem;
+  padding-top: 1.25rem;
   position: relative;
 }
 #intelligentuser .content p{
-  font-size: 1.2rem;
+  font-size: 0.6rem;
   text-align: center;
 }
 #intelligentuser .ensure,#intelligentuser .cancel{
-  font-size: 1.1rem;
-  bottom:2.1rem;
+  font-size: 0.55rem;
+  bottom:1.05rem;
 }
 #intelligentuser .ensure{
-  left: 3rem;
+  left: 1.5rem;
   color: #87D9FF;
   background: #fff;
-  border: 0.1rem solid #87D9FF;
+  border: 0.05rem solid #87D9FF;
 }
 #intelligentuser .cancel{
   background: #87D9FF;
-  right: 3rem;
+  right: 1.5rem;
 }

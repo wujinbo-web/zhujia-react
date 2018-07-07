@@ -1,32 +1,32 @@
 #serviceinfo .list{
-  width: 34.5rem;
-  height: 28rem;
+  width: 17.25rem;
+  height: 14rem;
   background: #fff;
-  margin:1rem auto;
+  margin: 0.5rem auto;
   position: relative;
-  border-radius: 0.3rem;
-  font-size: 1.2rem;
+  border-radius: 0.15rem;
+  font-size: 0.6rem;
 }
 #serviceinfo ul{
-  padding-top:10px;
+  padding-top: 0.4px;
 }
 #serviceinfo li{
-  padding-left: 3.2rem;
-  height: 3.6rem;
-  line-height: 3.6rem;
+  padding-left: 1.6rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
 
 }
-#serviceinfo .item1{background: url('/static/union_store/wuyedizhi.png') 1rem center no-repeat;background-size: 1.5rem 1.5rem;}
-#serviceinfo .item2{background: url('/static/union_store/zuke.png') 1rem center no-repeat;background-size: 1.5rem 1.5rem;}
-#serviceinfo .item3{background: url('/static/union_store/dianhua.png') 1rem center no-repeat;background-size: 1.5rem 1.5rem;}
-#serviceinfo .item4{background: url('/static/union_store/zuqi.png') 1rem center no-repeat;background-size: 1.5rem 1.5rem;}
-#serviceinfo .item5{background: url('/static/union_store/baoxiuneirong.png') 1rem center no-repeat;background-size: 1.5rem 1.5rem;}
-#serviceinfo .item6{background: url('/static/union_store/zujin.png') 1rem center no-repeat;background-size: 1.5rem 1.5rem;}
-#serviceinfo .item7{background: url('/static/union_store/yonghuzhuangtai.png') 1rem center no-repeat;background-size: 1.5rem 1.5rem;}
+#serviceinfo .item1{background: url('/static/union_store/wuyedizhi.png') 0.5rem center no-repeat;background-size: 0.75rem 0.75rem;}
+#serviceinfo .item2{background: url('/static/union_store/zuke.png') 0.5rem center no-repeat;background-size: 0.75rem 0.75rem;}
+#serviceinfo .item3{background: url('/static/union_store/dianhua.png') 0.5rem center no-repeat;background-size: 0.75rem 0.75rem;}
+#serviceinfo .item4{background: url('/static/union_store/zuqi.png') 0.5rem center no-repeat;background-size: 0.75rem 0.75rem;}
+#serviceinfo .item5{background: url('/static/union_store/baoxiuneirong.png') 0.5rem center no-repeat;background-size: 0.75rem 0.75rem;}
+#serviceinfo .item6{background: url('/static/union_store/zujin.png') 0.5rem center no-repeat;background-size: 0.75rem 0.75rem;}
+#serviceinfo .item7{background: url('/static/union_store/yonghuzhuangtai.png') 0.5rem center no-repeat;background-size: 0.75rem 0.75rem;}
 #serviceinfo .img, #serviceinfo img{
-  width: 5.75rem;
-  height: 4.2rem;
+  width: 2.875rem;
+  height: 2.1rem;
 }
 #serviceinfo .img{
-  position: absolute;top: 0;right: 0.35rem
+  position: absolute;top: 0;right: 0.175rem
 }

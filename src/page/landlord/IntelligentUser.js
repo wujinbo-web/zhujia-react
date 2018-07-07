@@ -10,7 +10,7 @@ class IntelligentUser extends Component {
         };
     }
     componentDidMount() {
-        document.title = window.SITE_NAME + ' - ' + '智能锁';
+        document.title = window.SITE_NAME + ' - ' + '用户管理';
     }
     fnFreeze = () => {
         this.setState({ freeze: "block" });
@@ -33,7 +33,6 @@ class IntelligentUser extends Component {
             <div className={pageStyle['page']} id="intelligentuser">
                 <React.Fragment>
                     <div className={"box"} >
-                        <Header title="用户管理" />
                         <ul>
                             <li>用户：{aText.user}</li>
                             <li>类型：{aText.type}</li>
